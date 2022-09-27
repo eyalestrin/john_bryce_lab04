@@ -26,4 +26,6 @@
   ![Alt text](https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/master/images/screenshot06.jpg)
 6. Create a deployment named hr-web-app using the image kodekloud/webapp-color with 2 replicas.  
   **<code>kubectl create deployment hr-web-app --image=kodekloud/webapp-color --replicas 2</code>**  
+  ![Alt text](https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/master/images/screenshot07.jpg)
+7. 
   
