@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     run: use-pv
-  name: us-pvspec
+  name: use-pvspec
 spec:
   volumes:
     - name: pv-1
