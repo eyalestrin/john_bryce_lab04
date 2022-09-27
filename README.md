@@ -34,4 +34,9 @@
   **<code>kubectl run temp-bus --image=redis:alpine --namespace=finance</code>**  
   **<code>kubectl get pods --namespace=finance</code>**  
   ![Alt text](https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/master/images/screenshot08.jpg)
-9. 
+9. Create a Persistent Volume with the given specification:  
+  * Volume Name: pv-analytics  
+  * Storage: 100Mi  
+  * Access modes: ReadWriteMany  
+  * Host Path: /pv/data-analytics  
+  **<code>
