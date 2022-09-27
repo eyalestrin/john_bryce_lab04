@@ -72,3 +72,4 @@
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot19.jpg)  
   **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateNginxCritical.yaml</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot20.jpg)  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot21.jpg)  
