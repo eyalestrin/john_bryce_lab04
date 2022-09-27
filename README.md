@@ -39,4 +39,5 @@
   * Storage: 100Mi  
   * Access modes: ReadWriteMany  
   * Host Path: /pv/data-analytics  
-  **<code>
+  **<code>kubectl apply -f https://github.com/eyalestrin/john_bryce_lab04/blob/main/yaml/CreatePersistentStorage.yaml</code>**  
+  
