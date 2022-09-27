@@ -10,7 +10,7 @@ metadata:
     name: use-pv
   volumeMounts:
     - mountPath: "/data"
-	    name: pv-1
+      name: pv-1
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
