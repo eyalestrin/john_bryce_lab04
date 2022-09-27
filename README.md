@@ -77,4 +77,7 @@
     Container 1: name: **alpha**, image: **nginx**, Environment Variable: **name: alpha**  
     Container 2: name: **beta**, image: **busybox**, command **sleep 4800**, Environment Variable: **name: beta**  
     **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateMultiPod.yaml</code>**  
+    ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot22.jpg)  
+    ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot23.jpg)  
+    ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot24.jpg)  
     
