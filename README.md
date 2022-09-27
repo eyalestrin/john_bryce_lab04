@@ -48,4 +48,6 @@
   **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateRedisEmptyDir.yaml</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/2a1f2d191f01795783bc9eb8a52d7e96c6d71c2a/images/screenshot10.jpg)
 11. Create this pod and attached it a persistent volume called pv-1. Make sure the PV mountPath is hostbase : /data  
-  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/2a1f2d191f01795783bc9eb8a52d7e96c6d71c2a/images/screenshot11.jpg)
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/2a1f2d191f01795783bc9eb8a52d7e96c6d71c2a/images/screenshot11.jpg)  
+  **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateNginxVolume.yaml</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/2a1f2d191f01795783bc9eb8a52d7e96c6d71c2a/images/screenshot12.jpg)  
