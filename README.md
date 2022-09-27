@@ -8,4 +8,4 @@
 
 # Lab instructions:
 1. Deploy a pod named nginx-pod using the nginx:alpine image.  
-  'kubectl create deployment nginx-pod-yourname --image=nginx:alpine'
+  **<code>kubectl create deployment nginx-pod-yourname --image=nginx:alpine</code>**
