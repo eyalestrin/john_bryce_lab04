@@ -20,5 +20,5 @@
   ![Alt text](https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/master/images/screenshot04.jpg)
 4. Get the list of nodes in JSON format and store it in a file at /tmp/nodes.txt  
   **<code>kubectl get nodes --output=json > /tmp/nodes.txt</code>**  
-  ![Alt text](https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/master/images/screenshot04.jpg)
+  ![Alt text](https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/master/images/screenshot05.jpg)
 5. 
