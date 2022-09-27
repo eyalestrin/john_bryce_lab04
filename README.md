@@ -41,4 +41,9 @@
   * Host Path: /pv/data-analytics  
   **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreatePersistentStorage.yaml</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/99f1c26de06b1a650685448da169ad9401f6f09d/images/screenshot09.jpg)
+10. Create a Pod called redis-storage with image: redis:alpine with a Volume of type emptyDir that lasts for the life of the Pod. specs:.  
+  * Pod named 'redis-storage'  
+  * Pod 'redis-storage' uses Volume type of emptyDir  
+  * Pod 'redis-storage' uses volumeMount with mountPath = /data/redis  
+  **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateRedisEmptyDir.yaml</code>**  
   
