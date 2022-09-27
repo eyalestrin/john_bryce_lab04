@@ -40,5 +40,4 @@
   * Access modes: ReadWriteMany  
   * Host Path: /pv/data-analytics  
   **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreatePersistentStorage.yaml</code>**  
-  ![Alt text](https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/master/images/screenshot09.jpg)
   
