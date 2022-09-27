@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pv-analytics
+spec:
+  storageClassName: manual
+  accessModes:
+   - ReadWriteMany
+  volumeMounts:
+   - name: pv-analytics
+     mountPath: /pv/data-analytics
+  resources:
+   requests:
+    storage: 100Mi
