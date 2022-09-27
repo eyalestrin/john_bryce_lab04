@@ -64,3 +64,11 @@
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot16.jpg)  
   **<code>kubectl run test-ns --image=busybox:1.28 --rm -it --restart=Never -- nslookup nginx-resolver</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot17.jpg)  
+14. Create a static pod on node01 called nginx-critical with image nginx. Create this pod on node01 and make sure that it is recreated/restarted automatically in case of a failure.  
+  **<code>kubectl get nodes</code>**  
+  **<code>kubectl label nodes ip-192-168-11-201.ec2.internal env=prod</code>**
+  Note: Replace the value of **ip-192-168-11-201.ec2.internal** according to the target node name.  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot18.jpg)  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot19.jpg)  
+  **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateNginxCritical.yaml</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot20.jpg)  
