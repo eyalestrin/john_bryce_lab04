@@ -6,15 +6,15 @@ metadata:
     run: use-pv
   name: use-pvspec
 spec:
-  volumes:
-    - name: pv-1
-      persistentVolumeClaim:
-        claimName: pv-1
   containers:
     - name: use-pv
       image: nginx
       volumeMounts:
         - mountPath: "/data"
           name: pv-1
+  volumes:
+    - name: pv-1
+      hostPath:
+        path: "/tmp"
   dnsPolicy: ClusterFirst
   restartPolicy: Always
