@@ -51,3 +51,7 @@
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot11.jpg)  
   **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateNginxVolume.yaml</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot12.jpg)  
+12. Create a new deployment called nginx-deploy, with image nginx:1.16 and 1 replica and record the version.  
+  **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/nginx-deploy116.yaml</code>**  
+   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot13.jpg)  
+   
