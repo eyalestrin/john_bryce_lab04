@@ -80,4 +80,9 @@
     ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot22.jpg)  
     ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot23.jpg)  
     ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot24.jpg)  
-    
+ 
+# Pod Design Questions:
+1. Type the command for Get pods with label information:  
+  **<code>kubectl get pods --show-labels</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot25.jpg)  
+  
