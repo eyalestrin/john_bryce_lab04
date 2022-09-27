@@ -46,5 +46,5 @@
   * Pod 'redis-storage' uses Volume type of emptyDir  
   * Pod 'redis-storage' uses volumeMount with mountPath = /data/redis  
   **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateRedisEmptyDir.yaml</code>**  
-  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/99f1c26de06b1a650685448da169ad9401f6f09d/images/screenshot10.jpg)
+  ![Alt text](https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/master/images/screenshot10.jpg)
   
