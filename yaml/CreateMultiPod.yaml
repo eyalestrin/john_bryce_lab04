@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: alpha
+  labels:
+    env: alpha
+spec:
+  containers:
+  - name: alpha
+    image: nginx
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: beta
+  labels:
+    env: beta
+spec:
+  containers:
+  - name: beta
+    image: busybox
+    command: ["sleep"]
+    args: ["4800"]
