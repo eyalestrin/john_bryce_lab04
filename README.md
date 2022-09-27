@@ -93,3 +93,8 @@
 3. Change the label for one of the pod to **env=uat** and list all the pods to verify:  
   **<code>kubectl label --overwrite pods nginx5 env=uat</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot28.jpg)  
+4. Remove the labels for the pods that we created now and verify all the labels are removed:  
+  **<code>kubectl label pods nginx1 nginx2 nginx3 nginx4 nginx5 env-</code>**  
+  **<code>kubectl get pods --show-labels</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot29.jpg)  
+  
