@@ -85,4 +85,7 @@
 1. Type the command for Get pods with label information:  
   **<code>kubectl get pods --show-labels</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot25.jpg)  
-  
+2. Create 5 nginx pods in which two of them is labeled env=prod and three of them is labeled env=dev  
+  **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateMultiPodWithLabels.yaml</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot25.jpg)  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot26.jpg)  
