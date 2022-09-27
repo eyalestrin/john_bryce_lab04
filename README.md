@@ -29,5 +29,9 @@
   ![Alt text](https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/master/images/screenshot07.jpg)
 7. Create a static pod named static-busybox on the master node that uses the busybox image and the command sleep 1000.  
   **<code>kubectl run static-busybox --image=busybox --restart=Never – /bin/sh ‘sleep 1000’</code>**
-8. 
-  
+8. Create a POD in the finance namespace named temp-bus with the image redis:alpine  
+  **<code>kubectl create namespace finance</code>**  
+  **<code>kubectl run temp-bus --image=redis:alpine --namespace=finance</code>**  
+  **<code>kubectl get pods --namespace=finance</code>**  
+  ![Alt text](https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/master/images/screenshot08.jpg)
+9. 
