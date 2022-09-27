@@ -89,3 +89,6 @@
   **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateMultiPodWithLabels.yaml</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot25.jpg)  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot26.jpg)  
+3. Change the label for one of the pod to env=uat and list all the pods to verify:  
+  **<code>kubectl label --overwrite pods nginx5 env=uat</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot27.jpg)  
