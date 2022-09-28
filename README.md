@@ -143,3 +143,8 @@
   **<code>kubectl set image deployment/webapp nginx=nginx:1.100</code>**  
   **<code>kubectl get pods</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot41.jpg)  
+7. Undo the deployment with the previous version and verify everything is Ok:  
+  **<code>kubectl rollout history deployment/webapp</code>**  
+  **<code>kubectl rollout history deploy webapp --revision=3</code>**  
+  **<code>kubectl get deployment webapp</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot42.jpg)  
