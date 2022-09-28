@@ -113,3 +113,10 @@
 8. Create a Pod that will be deployed on the worker node with the label **nodeName=nginxnode**. Add the nodeSelector to the pod.  
   **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateNginxWithNodeSelector.yaml</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot34.jpg)  
+
+# Deployments
+1. Create a deployment called webapp with image nginx with 5 replicas:  
+  * Use the below command to create a yaml file:  
+  * kubectl create deploy webapp --image=nginx --dry-run -o yaml > webapp.yaml  
+  * Edit it and add 5 replica’s  
+  * 
