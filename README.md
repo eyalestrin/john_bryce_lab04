@@ -148,3 +148,7 @@
   **<code>kubectl rollout history deploy webapp --revision=3</code>**  
   **<code>kubectl get deployment webapp</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot42.jpg)  
+8. Update the deployment with the image version latest and check the history and verify nothing is going on:  
+  **<code>kubectl set image deployment/webapp nginx=nginx:latest</code>**  
+  **<code>kubectl rollout history deployment/webapp</code>**  
+  
