@@ -124,3 +124,5 @@
   **<code>kubectl get deployments</code>**  
   **<code>kubectl get pods</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot36.jpg)  
+3. Create a deployment of webapp with image nginx:1.17.1 with container port 80 and verify the image version.  
+  **<code>kubectl create deploy webapp --image=nginx:1.17.1 --port=80 --dry-run=client -o yaml > webapp-upgrade.yaml</code>**  
