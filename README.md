@@ -104,9 +104,12 @@
 6. Get all the nodes with labels:  
   **<code>kubectl get nodes --show-labels</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot31.jpg)  
-7. Label the worker node nodeName=nginxnode:  
+7. Label the worker node **nodeName=nginxnode**:  
   **<code>kubectl label nodes ip-192-168-11-201.ec2.internal ip-192-168-32-136.ec2.internal nodeName=nginxnode</code>**  
   Note: Update the node names according to the target nodes.  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot32.jpg)  
   **<code>kubectl get nodes --show-labels | grep nodeName=nginxnode</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot33.jpg)  
+8. Create a Pod that will be deployed on the worker node with the label **nodeName=nginxnode**. Add the nodeSelector to the pod.  
+  **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/CreateNginxWithNodeSelector.yaml</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot34.jpg)  
