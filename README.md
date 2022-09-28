@@ -132,4 +132,4 @@
   **<code>kubectl set image deployment/webapp nginx=nginx:1.17.4</code>**  
   **<code>kubectl annotate --overwrite deployment webapp version='1.17.4'</code>**  
   **<code>kubectl rollout status deployment/webapp</code>**  
-  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot38.jpg)  
