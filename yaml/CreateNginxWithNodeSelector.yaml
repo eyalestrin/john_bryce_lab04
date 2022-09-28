@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: nginx
+  name: nginx
+spec:
+  template:
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        resources: {}
+      nodeSelector:
+       nodeName: nginxnode
+      dnsPolicy: ClusterFirst
+	  restartPolicy: Never
+status: {}
