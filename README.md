@@ -117,6 +117,6 @@
 # Deployments
 1. Create a deployment called webapp with image nginx with 5 replicas:  
   * Use the below command to create a yaml file:  
-  * kubectl create deploy webapp --image=nginx --dry-run -o yaml > webapp.yaml  
+    **<code>kubectl create deploy webapp --image=nginx --dry-run -o yaml > webapp.yaml</code>**  
   * Edit it and add 5 replica’s  
-  * 
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot35.jpg)  
