@@ -168,3 +168,7 @@
   **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/hello-job.yaml</code>**  
   **<code>kubectl get pods</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot46.jpg)  
+
+# CONFIG MAP
+1. Create a file called config.txt with two values key1=value1 and key2=value2 and verify the file  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot47.jpg)  
