@@ -128,3 +128,8 @@
   **<code>kubectl create deploy webapp --image=nginx:1.17.1 --port=80 --dry-run=client -o yaml > webapp-upgrade.yaml</code>**  
   **<code>kubectl apply -f webapp-upgrade.yaml</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot37.jpg)  
+4. Update the deployment with the image version 1.17.4 and verify and check the rollout history and make sure everything is ok after the update:  
+  **<code>kubectl set image deployment/webapp nginx=nginx:1.17.4</code>**  
+  **<code>kubectl annotate --overwrite deployment webapp version='1.17.4'</code>**  
+  **<code>kubectl rollout status deployment/webapp</code>**  
+  
