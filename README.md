@@ -101,4 +101,6 @@
   **<code>kubectl label pods nginx1 nginx2 nginx3 nginx4 nginx5 app=nginx</code>**  
   **<code>kubectl get pods --show-labels</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot30.jpg)  
-6. 
+6. Get all the nodes with labels:  
+  **<code>kubectl get nodes --show-labels</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot31.jpg)  
