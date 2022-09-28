@@ -120,3 +120,7 @@
     **<code>kubectl create deploy webapp --image=nginx --dry-run -o yaml > webapp.yaml</code>**  
   * Edit it and add 5 replica’s  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot35.jpg)  
+2. Get the deployment rollout status and the replicaset that created with this deployment:  
+  **<code>kubectl get deployments</code>**  
+  **<code>kubectl get pods</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot36.jpg)  
