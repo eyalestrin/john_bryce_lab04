@@ -164,4 +164,7 @@
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot45.jpg)  
 11. Create a job and make it run 10 times one after one (run > exit > run >exit ..) using the following configuration:  
   **<code>kubectl create job hello-job --image=busybox --dry-run=client -o yaml -- echo "Hello I am from job" > hello-job.yaml</code>**  
-  * Note: Add to the above job completions: 10 inside the yaml  
+  * Note: Add to the above job **completions: 10** inside the yaml  
+  **<code>kubectl apply -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/hello-job.yaml</code>**  
+  **<code>kubectl get pods</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot46.jpg)  
