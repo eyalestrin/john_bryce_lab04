@@ -158,3 +158,7 @@
   **<code>kubectl get hpa</code>**  
   **<code>kubectl get deployment</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot44.jpg)  
+10. Clean the cluster by deleting deployment and hpa you just created.  
+  **<code>kubectl delete deployment webapp</code>**  
+  **<code>kubectl delete hpa webapp</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot45.jpg)  
