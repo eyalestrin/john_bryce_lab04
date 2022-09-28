@@ -97,4 +97,7 @@
   **<code>kubectl label pods nginx1 nginx2 nginx3 nginx4 nginx5 env-</code>**  
   **<code>kubectl get pods --show-labels</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot29.jpg)  
+5. Add the label app=nginx for all the pods and verify:  
+  **<code>kubectl label pods nginx1 nginx2 nginx3 nginx4 nginx5 app=nginx</code>**  
+  **<code>kubectl get pods --show-labels</code>**  
   
