@@ -133,3 +133,9 @@
   **<code>kubectl annotate --overwrite deployment webapp version='1.17.4'</code>**  
   **<code>kubectl rollout status deployment/webapp</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot38.jpg)  
+5. Undo the deployment to the previous version 1.17.1 and verify Image has the previous version:  
+  **<code>kubectl rollout history deployment/webapp</code>**  
+  **<code>kubectl rollout undo deployment/webapp --to-revision=1</code>**  
+  **<code>kubectl describe deployment webapp | grep Image</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot39.jpg)  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot40.jpg)  
