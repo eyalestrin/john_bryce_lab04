@@ -139,3 +139,7 @@
   **<code>kubectl describe deployment webapp | grep Image</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot39.jpg)  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot40.jpg)  
+6. Update the deployment with the wrong image version 1.100 and verify something is wrong with the deployment:  
+  **<code>kubectl set image deployment/webapp nginx=nginx:1.100</code>**  
+  **<code>kubectl get pods</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot41.jpg)  
