@@ -153,3 +153,8 @@
   **<code>kubectl rollout history deployment/webapp</code>**  
   **<code>kubectl describe deployment webapp | grep Image</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot43.jpg)  
+9. Apply the autoscaling to this deployment with minimum 10 and maximum 20 replicas and target CPU of 85% and verify hpa is created and replicas are increased to 10 from 1  
+  **<code>kubectl autoscale deployment webapp --cpu-percent=85 --min=10 --max=20</code>**  
+  **<code>kubectl get hpa</code>**  
+  **<code>kubectl get deployment</code>**  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot44.jpg)  
