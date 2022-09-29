@@ -175,5 +175,5 @@
 2. Create a configmap named keyvalcfgmap and read data from the file config.txt and verify that configmap is created correctly.  
   **<code>kubectl create configmap keyvalcfgmap --from-file=config.txt</code>**  
   **<code>kubectl describe configmaps keyvalcfgmap</code>**  
-  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot47.jpg)  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot48.jpg)  
 3. 
