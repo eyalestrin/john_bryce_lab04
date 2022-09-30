@@ -175,9 +175,10 @@
 2. Create a configmap named keyvalcfgmap and read data from the file config.txt and verify that configmap is created correctly.  
   **<code>kubectl create configmap keyvalcfgmap --from-file=config.txt</code>**  
   **<code>kubectl describe configmaps keyvalcfgmap</code>**  
+  **<code>kubectl get configmap keyvalcfgmap -o yaml</code>**  
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot48.jpg)  
 3. Create an nginx pod and load environment values from the above configmap keyvalcfgmap and exec into the pod, verify the environment variables and delete the pod.  
   **<code>kubectl run nginx --image=nginx --restart=Never --dry-run=client -o yaml > nginx-pod.yml</code>**  
-  **<code>kubectl create -f nginx-pod.yml</code>**  
+  **<code>kubectl create -f https://raw.githubusercontent.com/eyalestrin/john_bryce_lab04/main/yaml/nginx-pod.yml</code>**  
   **<code>kubectl exec -it nginx -- env | grep key</code>**  
-  
+  ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot49.jpg)  
