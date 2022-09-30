@@ -184,5 +184,5 @@
   ![Alt text](https://github.com/eyalestrin/john_bryce_lab04/blob/main/images/screenshot49.jpg)  
 
 # Delete Amazon EKS Cluster
-1. Follow the instructions below to delete the EKS cluster:  
-  https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html#gs-eksctl-clean-up
+Follow the instructions below to delete the EKS cluster:  
+https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html#gs-eksctl-clean-up
